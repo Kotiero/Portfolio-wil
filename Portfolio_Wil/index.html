@@ -1,0 +1,3443 @@
+<!DOCTYPE html>
+<html lang="fr-CA">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wilfried Akpaka - Portfolio</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.ico"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/Wilfried.jpeg"
+              alt="Wilfried Akpaka"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Wilfried Akpaka">Wilfried Akpaka</h1>
+
+            <p class="title" style="text-align: center">
+              Étudiant en comptabilité <br />
+              <i>Passionné de l'IA</i>
+            </p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Afficher les contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Courriel</p>
+
+                <a
+                  href="mailto:wilfriedakpaka228@gmail.com"
+                  class="contact-link"
+                  >wilfriedakpaka228@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Téléphone</p>
+
+                <a href="tel:+14183219539" class="contact-link"
+                  >+1 (418) 321-9539</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Localisation</p>
+
+                <address>Alma, Québec, Canada</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="https://www.facebook.com/kodzo.akpaka.2025"
+                target="_blank"
+                rel="noopener no-referrer"
+                class="social-link"
+              >
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://x.com/rbrt_54"
+                target="_blank"
+                rel="noopener no-referrer"
+                class="social-link"
+              >
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://www.instagram.com/wil_rbrt"
+                target="_blank"
+                rel="noopener no-referrer"
+                class="social-link"
+              >
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/kodzo-atsou-wilfried-akpaka-647998223"
+                target="_blank"
+                rel="noopener no-referrer"
+                class="social-link"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>À propos</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Curriculum Vitæ</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Bibliothèque</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Blogue</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Projets</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #À PROPOS
+      -->
+
+        <article class="about active" data-page="à-propos">
+          <header>
+            <h2 class="h2 article-title">À propos de moi</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              Étudiant en Techniques de comptabilité et de gestion au Collège
+              d'Alma, Québec, je suis passionné par tout ce qui touche à la
+              comptabilité, à la finance, à l'organisation administrative et à
+              l'efficacité en entreprise. J'aime travailler sur des tâches
+              concrètes, résoudre des problèmes et soutenir les équipes dans
+              leurs processus.
+            </p>
+            <p>
+              Curieux et motivé, je suis toujours prêt à apprendre et à
+              m'adapter à de nouveaux défis. Mon parcours académique m'a permis
+              d'acquérir des compétences solides en traitement comptable, en
+              analyse budgétaire et en gestion administrative, tout en
+              développant une bonne maîtrise des outils numériques comme Excel,
+              Acomba, ProFile d'Intuit et Microsoft 365.
+            </p>
+
+            <p>
+              En parallèle de ma formation, je m'intéresse activement aux
+              nouvelles technologies, notamment l'<strong
+                >intelligence artificielle</strong
+              >
+              appliquée à la finance. Je développe également mes compétences en
+              <strong>développement web</strong> (HTML, CSS, JavaScript) et
+              j'explore des outils numériques qui rendent le travail plus
+              intelligent, rapide et intuitif. Mon objectif : évoluer dans un
+              environnement moderne où je peux combiner mes compétences en
+              gestion, en technologies et en innovation pour avoir un impact
+              concret.
+            </p>
+          </section>
+
+          <!--
+          - services
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">Ce Que Je Fais</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/currency-circle-dollar.svg"
+                    alt="icône comptabilité"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">
+                    Comptabilité et administration
+                  </h4>
+
+                  <p class="service-item-text">
+                    J'étudie la comptabilité, la fiscalité, la budgétisation et
+                    les processus administratifs dans le cadre de mon programme
+                    collégial en Techniques de comptabilité et de gestion.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/calculator.svg"
+                    alt="icône outils financiers"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Outils financiers</h4>
+
+                  <p class="service-item-text">
+                    J'apprends à utiliser des outils comme Excel, Acomba et
+                    Microsoft 365 pour gérer les opérations, suivre les données
+                    et soutenir la prise de décision.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-dev.svg"
+                    alt="icône développement web"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">
+                    Développement web complet
+                  </h4>
+
+                  <p class="service-item-text">
+                    Je développe mes compétences en HTML, CSS, JavaScript et les
+                    technologies back-end pour construire des applications web
+                    complètes.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/file-py.svg"
+                    alt="icône IA"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">
+                    IA et programmation Python
+                  </h4>
+
+                  <p class="service-item-text">
+                    J'explore comment l'intelligence artificielle et Python
+                    peuvent être appliqués dans la finance et l'automatisation
+                    d'entreprise.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - témoignages
+        -->
+
+          <!-- TÉMOIGNAGES CORRIGÉS -->
+          <section class="testimonials">
+            <h3 class="h3 testimonials-title">Témoignages</h3>
+
+            <ul class="testimonials-list has-scrollbar">
+              <!-- TÉMOIGNAGE 1 - Frédérike Dufour -->
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-2.png"
+                      alt="Frédérike Dufour"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Mme Frédérike Dufour - AP aux Apprentissages
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      En tant qu'aide pédagogique aux apprentissages au Collège
+                      d'Alma et responsable du Service de tutorat par les pairs,
+                      j'ai l'occasion de compter parmi mes tuteur(e)s M. Kodzo
+                      Atsou Wilfried Akpaka depuis maintenant 3 sessions
+                      consécutives et ce depuis la session d'hiver 2024 dans les
+                      cours de comptabilité spécifiquement.
+                    </p>
+                    <p>
+                      Durant ces sessions, j'ai pu découvrir chez M. Akpaka une
+                      personnalité rigoureuse, dynamique et autonome avec un
+                      grand sens des responsabilités. Lors des nombreuses
+                      rencontres de tutorat avec l'étudiante ayant des besoins
+                      particuliers, il a toujours fait preuve d'un réel
+                      enthousiasme et d'une implication sans faille dépassant
+                      même les attentes.
+                    </p>
+                    <p>
+                      C'est donc sans gêne que je témoigne de la qualité du
+                      service rendu par M. Kodzo Atsou Wilfried Akpaka dans le
+                      cadre du tutorat par les pairs tout au long de ces 3
+                      dernières sessions.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <!-- TÉMOIGNAGE 2 - Fulchany Arvelin -->
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/Nanith.png"
+                      alt="Fulchany Arvelin"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Fulchany Arvelin - Collègue et ami
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Wilfried est quelqu'un de très motivé, qui aime apprendre
+                      et se dépasser. Même en dehors des cours, il parle souvent
+                      de ses projets, de ses idées, et il cherche toujours à
+                      s'améliorer. C'est une personne de confiance, qui inspire
+                      les autres à faire mieux.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <!-- TÉMOIGNAGE 3 - Lise Simard -->
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-2.png"
+                      alt="Lise Simard"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Mme Lise Simard - Directrice G. de la Coop
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Au nom de COOPSCO Collège d'Alma, nous souhaitons
+                      reconnaître l'implication et l'engagement de Kodzo Atsou
+                      Wilfried Akpaka à titre de vice-président du conseil
+                      d'administration pour les années 2023-2024 et 2024-2025.
+                    </p>
+                    <p>
+                      La coopérative accorde une grande importance au choix de
+                      ses administrateurs, recherchant chez chacun des valeurs
+                      communes et un esprit coopératif. Wilfried incarne
+                      pleinement ces principes par sa grande collaboration, sa
+                      présence constante aux réunions, son dynamisme et son
+                      leadership.
+                    </p>
+                    <p>
+                      Son implication a permis à la coopérative de mieux
+                      représenter les besoins de ses membres, d'innover dans ses
+                      idées, ses produits et ses services, et de favoriser de
+                      bonnes pratiques d'affaires. Par ses questions pertinentes
+                      et sa participation active, il a contribué au
+                      développement du réseau Coopsco.
+                    </p>
+                    <p>
+                      Apprécié de tous, Wilfried est une personne compréhensive,
+                      ouverte à la discussion, intelligente, efficace,
+                      responsable, autonome et pleine d'initiative. Il
+                      représente parfaitement le citoyen responsable, volontaire
+                      et impliqué que nous valorisons au sein de notre conseil.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <!-- TÉMOIGNAGE 4 - Nana Condé -->
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/nana.png"
+                      alt="Nana Condé"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Nana Condé - Étudiante, bénéficiaire tutorat
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Wilfried m'a beaucoup aidée à mieux comprendre mes cours
+                      de comptabilité. Il prend le temps d'expliquer clairement,
+                      avec patience. C'est une personne très impliquée et
+                      toujours prête à aider les autres.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <!-- TÉMOIGNAGE 5 - Alioune Diop -->
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/Alioune.png"
+                      alt="Alioune Diop"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Alioune Diop - Ami et collègue
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Akpaka est une personne très studieuse, dynamique et
+                      organisée. C'est le genre de personne qui impacte
+                      positivement son entourage et les pousse à se dépasser.
+                      C'est un leader naturel.
+                    </p>
+                    <p>
+                      Il m'a énormément apporté en tant qu'ami et collègue.
+                      Toujours prêt à faire des sacrifices pour les autres, il
+                      sait comment motiver et rassembler. Je suis très heureux
+                      d'avoir eu la chance de le connaître.
+                    </p>
+                    <p>
+                      J'ai travaillé avec lui sur plusieurs projets, et je peux
+                      vous assurer que c'est le partenaire idéal : fiable,
+                      engagé et inspirant.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - modal témoignages
+        -->
+
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="./assets/images/avatar-1.png"
+                    alt="Témoignage"
+                    width="80"
+                    data-modal-img
+                  />
+                </figure>
+
+                <img
+                  src="./assets/images/icon-quote.svg"
+                  alt="icône citation"
+                />
+              </div>
+
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title>Nom du témoin</h4>
+
+                <time datetime="2025-06-14">14 juin, 2025</time>
+
+                <div data-modal-text>
+                  <p>
+                    Contenu du témoignage complet qui s'affichera dans la modal
+                    lorsque l'utilisateur clique sur un témoignage.
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+        </article>
+
+        <!--
+        - #CURRICULUM VITÆ
+      -->
+
+        <article class="resume" data-page="curriculum-vitæ">
+          <header>
+            <h2 class="h2 article-title">Curriculum vitæ</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Formation</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Collège d'Alma<br />
+                  Techniques de comptabilité et de gestion
+                </h4>
+                <span>📅 Août 2023 — Mai 2026 (En cours)</span>
+                <p class="timeline-text">
+                  <strong style="color: white; font-weight: bold">
+                    Diplôme d'études collégiales (DEC)</strong
+                  >, un programme axé sur la comptabilité, l'analyse budgétaire,
+                  et la gestion administrative. J'y développe des compétences
+                  concrètes en traitement des factures, suivi comptable, gestion
+                  de la paie, ainsi qu'en préparation et analyse de rapports
+                  financiers. Une formation qui m'a permis d'avoir une bonne
+                  connaissance des outils numériques comme Excel, Acomba,
+                  ProFile et d'autres logiciels de la suite Microsoft 365.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Université de Sakarya<br />
+                  Commerce international et finance
+                </h4>
+                <span>📅 Sept. 2022 — Juin 2023 (Non complété)</span>
+                <p class="timeline-text">
+                  <strong style="color: white; font-weight: bold"
+                    >Baccalauréat universitaire</strong
+                  >
+                  axé sur le commerce mondial, la finance internationale et les
+                  principes économiques. Durant une année d'études, j'ai acquis
+                  une compréhension générale des relations commerciales entre
+                  pays, ainsi que des principes fondamentaux liés à
+                  l'importation et à l'exportation. Cette formation m'a permis
+                  de développer une vision globale des échanges économiques et
+                  des mécanismes qui régissent le commerce mondial.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  IUT- Gestion/Université de Lomé<br />
+                  Comptabilité et finance
+                </h4>
+                <span>📅 Oct. 2020 — Juill. 2021 (Non complété)</span>
+                <p class="timeline-text">
+                  <strong style="color: white; font-weight: bold"
+                    >Licence professionnelle</strong
+                  >
+                  abordant la comptabilité avancée, la fiscalité, l'analyse des
+                  états financiers et la gestion. Pendant une année de
+                  formation, j'y ai acquis une compréhension des cycles
+                  comptables, des déclarations fiscales et de la lecture de
+                  bilans et de comptes de résultat.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Institut Technique Saint-Esprit de Kpalimé<br />
+                  Techniques quantitatives de gestion
+                </h4>
+                <span>📅 2017 — 2020 (Complété)</span>
+                <p class="timeline-text">
+                  Ce programme, équivalent à un DEC, m'a permis d'acquérir des
+                  bases solides en comptabilité, mathématiques appliquées,
+                  économie et gestion d'entreprise. Cette formation m'a préparé
+                  à poursuivre mes études dans le domaine de la comptabilité et
+                  de la finance
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="briefcase-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Expérience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Restaurant Normandin - Cuisinier
+                </h4>
+                <span>📅 Oct. 2024 — Présent</span>
+                <p class="timeline-text">
+                  Préparation des commandes avec respect des standards de
+                  qualité et des délais.<br />
+                  Maintien des normes d'hygiène et de salubrité, avec une
+                  organisation efficace de la cuisine.<br />
+                  Collaboration avec l'équipe pour assurer un service rapide et
+                  de qualité.<br />
+                  Développement d'une capacité à gérer la pression et à
+                  travailler en équipe.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Vice-président au CA - Coopsco Collège d'Alma
+                </h4>
+                <span>📅 2023 — Présent</span>
+                <p class="timeline-text">
+                  Participation aux décisions stratégiques et représentation des
+                  membres.<br />
+                  Organisation d'événements et coordination avec plusieurs
+                  parties prenantes.<br />
+                  Développement de compétences en leadership, organisation et
+                  gestion administrative.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Restaurant PFK - Cuisinier & Caissier
+                </h4>
+                <span>📅 Déc. 2023 — Présent</span>
+                <p class="timeline-text">
+                  Accueil des clients, prise des commandes et encaissement.<br />
+                  Responsabilité des ouvertures et fermetures (contrôle des
+                  stocks, répartition des tâches).<br />
+                  Développement de compétences en gestion du temps et service à
+                  la clientèle.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Haser Cephe Giydirme - Représentant commercial
+                </h4>
+                <span>📅 Fév. 2023 — Août 2023</span>
+                <p class="timeline-text">
+                  Analyse des besoins clients et présentation de solutions
+                  personnalisées.<br />
+                  Prospection commerciale, négociation et suivi des contrats.<br />
+                  Renforcement des aptitudes en communication et en gestion de
+                  portefeuille client.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">Mes compétences</h3>
+            <!-- COMPÉTENCES LINGUISTIQUES -->
+            <h4 class="h4" style="margin-top: 25px; margin-bottom: 5px">
+              Compétences linguistiques
+            </h4>
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <ion-icon
+                    name="language-outline"
+                    style="color: #00adb5"
+                  ></ion-icon>
+                  <h5 class="h5">Français</h5>
+                  <data value="90">90%</data>
+                  <button
+                    type="button"
+                    onclick="toggleDescription(this)"
+                    style="
+                      background: none;
+                      border: none;
+                      color: var(--orange-yellow-crayola);
+                      margin-left: auto;
+                      font-size: 14px;
+                      cursor: pointer;
+                    "
+                  >
+                    Détails +
+                  </button>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+                <div
+                  style="
+                    display: none;
+                    color: var(--light-gray);
+                    font-size: var(--fs-6);
+                    font-weight: var(--fw-300);
+                    line-height: 1.6;
+                    margin-top: 10px;
+                    padding: 10px;
+                    background: var(--eerie-black-1);
+                    border-radius: 8px;
+                    border-left: 2px solid var(--orange-yellow-crayola);
+                  "
+                >
+                  <p>
+                    Maîtrise quasi native du français avec excellente commande
+                    de la langue écrite et parlée. Capable de communiquer
+                    efficacement dans des contextes professionnels, académiques
+                    et informels.
+                  </p>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <ion-icon
+                    name="language-outline"
+                    style="color: #00adb5"
+                  ></ion-icon>
+                  <h5 class="h5">Anglais</h5>
+                  <data value="75">75%</data>
+                  <button
+                    type="button"
+                    onclick="toggleDescription(this)"
+                    style="
+                      background: none;
+                      border: none;
+                      color: var(--orange-yellow-crayola);
+                      margin-left: auto;
+                      font-size: 14px;
+                      cursor: pointer;
+                    "
+                  >
+                    Détails +
+                  </button>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 65%"></div>
+                </div>
+                <div
+                  style="
+                    display: none;
+                    color: var(--light-gray);
+                    font-size: var(--fs-6);
+                    font-weight: var(--fw-300);
+                    line-height: 1.6;
+                    margin-top: 10px;
+                    padding: 10px;
+                    background: var(--eerie-black-1);
+                    border-radius: 8px;
+                    border-left: 2px solid var(--orange-yellow-crayola);
+                  "
+                >
+                  <p>
+                    Compétence intermédiaire en anglais. À l'aise avec la
+                    communication d'affaires, je suis capable de comprendre des
+                    documents professionnels de complexité modérée et de
+                    participer activement à la plupart des échanges en milieu de
+                    travail.
+                  </p>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <ion-icon
+                    name="language-outline"
+                    style="color: #00adb5"
+                  ></ion-icon>
+                  <h5 class="h5">Turc</h5>
+                  <data value="85">85%</data>
+                  <button
+                    type="button"
+                    onclick="toggleDescription(this)"
+                    style="
+                      background: none;
+                      border: none;
+                      color: var(--orange-yellow-crayola);
+                      margin-left: auto;
+                      font-size: 14px;
+                      cursor: pointer;
+                    "
+                  >
+                    Détails +
+                  </button>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 75%"></div>
+                </div>
+                <div
+                  style="
+                    display: none;
+                    color: var(--light-gray);
+                    font-size: var(--fs-6);
+                    font-weight: var(--fw-300);
+                    line-height: 1.6;
+                    margin-top: 10px;
+                    padding: 10px;
+                    background: var(--eerie-black-1);
+                    border-radius: 8px;
+                    border-left: 2px solid var(--orange-yellow-crayola);
+                  "
+                >
+                  <p>
+                    Compétence intermédiaire-avancée en turc. Capable de
+                    communiquer couramment dans la plupart des situations,
+                    comprendre des textes complexes et exprimer des idées
+                    clairement avec un bon contrôle grammatical.
+                  </p>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <ion-icon
+                    name="language-outline"
+                    style="color: #00adb5"
+                  ></ion-icon>
+                  <h5 class="h5">Éwé(Mina)</h5>
+                  <data value="100">Langue maternelle</data>
+                  <button
+                    type="button"
+                    onclick="toggleDescription(this)"
+                    style="
+                      background: none;
+                      border: none;
+                      color: var(--orange-yellow-crayola);
+                      margin-left: auto;
+                      font-size: 14px;
+                      cursor: pointer;
+                    "
+                  >
+                    Détails +
+                  </button>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 100%"></div>
+                </div>
+                <div
+                  style="
+                    display: none;
+                    color: var(--light-gray);
+                    font-size: var(--fs-6);
+                    font-weight: var(--fw-300);
+                    line-height: 1.6;
+                    margin-top: 10px;
+                    padding: 10px;
+                    background: var(--eerie-black-1);
+                    border-radius: 8px;
+                    border-left: 2px solid var(--orange-yellow-crayola);
+                  "
+                >
+                  <p>
+                    Locuteur natif avec maîtrise parfaite de l'éwé(mina).
+                    Maîtrise complète de tous les aspects de la langue, y
+                    compris les nuances culturelles, les idiomes et le
+                    vocabulaire spécialisé.
+                  </p>
+                </div>
+              </li>
+            </ul>
+
+            <!-- COMPÉTENCES TECHNIQUES -->
+            <h4 class="h4" style="margin-top: 25px; margin-bottom: 5px">
+              Compétences techniques
+            </h4>
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <ion-icon
+                    name="calculator-outline"
+                    style="color: #00adb5"
+                  ></ion-icon>
+                  <h5 class="h5">Comptabilité et analyse financière</h5>
+                  <data value="90">90%</data>
+                  <button
+                    type="button"
+                    onclick="toggleDescription(this)"
+                    style="
+                      background: none;
+                      border: none;
+                      color: var(--orange-yellow-crayola);
+                      margin-left: auto;
+                      font-size: 14px;
+                      cursor: pointer;
+                    "
+                  >
+                    Détails +
+                  </button>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 85%"></div>
+                </div>
+                <div
+                  style="
+                    display: none;
+                    color: var(--light-gray);
+                    font-size: var(--fs-6);
+                    font-weight: var(--fw-300);
+                    line-height: 1.6;
+                    margin-top: 10px;
+                    padding: 10px;
+                    background: var(--eerie-black-1);
+                    border-radius: 8px;
+                    border-left: 2px solid var(--orange-yellow-crayola);
+                  "
+                >
+                  <p>
+                    Forte compétence en analyse d'états financiers,
+                    budgétisation, prévisions et comptabilité. J'ai réalisé des
+                    projets dans la préparation de rapports financiers,
+                    l'analyse de données financières et la fourniture
+                    d'informations exploitables pour les décisions d'entreprise.
+                  </p>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <ion-icon
+                    name="business-outline"
+                    style="color: #00adb5"
+                  ></ion-icon>
+                  <h5 class="h5">Gestion administrative</h5>
+                  <data value="85">85%</data>
+                  <button
+                    type="button"
+                    onclick="toggleDescription(this)"
+                    style="
+                      background: none;
+                      border: none;
+                      color: var(--orange-yellow-crayola);
+                      margin-left: auto;
+                      font-size: 14px;
+                      cursor: pointer;
+                    "
+                  >
+                    Détails +
+                  </button>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 85%"></div>
+                </div>
+                <div
+                  style="
+                    display: none;
+                    color: var(--light-gray);
+                    font-size: var(--fs-6);
+                    font-weight: var(--fw-300);
+                    line-height: 1.6;
+                    margin-top: 10px;
+                    padding: 10px;
+                    background: var(--eerie-black-1);
+                    border-radius: 8px;
+                    border-left: 2px solid var(--orange-yellow-crayola);
+                  "
+                >
+                  <p>
+                    En formation, je développe progressivement des compétences
+                    en gestion administrative, contrôle documentaire et
+                    optimisation des processus. Mes apprentissages me permettent
+                    de mieux comprendre les principes d'efficacité
+                    organisationnelle.
+                  </p>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <ion-icon
+                    name="logo-microsoft"
+                    style="color: #00adb5"
+                  ></ion-icon>
+                  <h5 class="h5">Excel et suite Microsoft 365</h5>
+                  <data value="90">90%</data>
+                  <button
+                    type="button"
+                    onclick="toggleDescription(this)"
+                    style="
+                      background: none;
+                      border: none;
+                      color: var(--orange-yellow-crayola);
+                      margin-left: auto;
+                      font-size: 14px;
+                      cursor: pointer;
+                    "
+                  >
+                    Détails +
+                  </button>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+                <div
+                  style="
+                    display: none;
+                    color: var(--light-gray);
+                    font-size: var(--fs-6);
+                    font-weight: var(--fw-300);
+                    line-height: 1.6;
+                    margin-top: 10px;
+                    padding: 10px;
+                    background: var(--eerie-black-1);
+                    border-radius: 8px;
+                    border-left: 2px solid var(--orange-yellow-crayola);
+                  "
+                >
+                  <p>
+                    Compétence intermédiaire à intermédiaire-avancée en Excel,
+                    incluant la maîtrise des formules, des tableaux croisés
+                    dynamiques, de la création de graphiques et une initiation
+                    aux macros. À l'aise avec la suite Microsoft 365 (Word,
+                    PowerPoint, Outlook, Teams) dans un contexte de travail
+                    collaboratif.
+                  </p>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <ion-icon
+                    name="cash-outline"
+                    style="color: #00adb5"
+                  ></ion-icon>
+                  <h5 class="h5">Acomba (logiciel comptable)</h5>
+                  <data value="90">90%</data>
+                  <button
+                    type="button"
+                    onclick="toggleDescription(this)"
+                    style="
+                      background: none;
+                      border: none;
+                      color: var(--orange-yellow-crayola);
+                      margin-left: auto;
+                      font-size: 14px;
+                      cursor: pointer;
+                    "
+                  >
+                    Détails +
+                  </button>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+                <div
+                  style="
+                    display: none;
+                    color: var(--light-gray);
+                    font-size: var(--fs-6);
+                    font-weight: var(--fw-300);
+                    line-height: 1.6;
+                    margin-top: 10px;
+                    padding: 10px;
+                    background: var(--eerie-black-1);
+                    border-radius: 8px;
+                    border-left: 2px solid var(--orange-yellow-crayola);
+                  "
+                >
+                  <p>
+                    Utilisateur en formation sur le logiciel comptable Acomba,
+                    avec une bonne compréhension des modules tels que le grand
+                    livre, les comptes payables/recevables, la paie et les
+                    rapports financiers. Capable d'effectuer des opérations
+                    courantes et de naviguer dans l'environnement du logiciel
+                    dans le cadre de travaux pratiques et de simulations
+                    comptables.
+                  </p>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <ion-icon
+                    name="code-slash-outline"
+                    style="color: #00adb5"
+                  ></ion-icon>
+                  <h5 class="h5">Développement web (HTML, CSS, JS)</h5>
+                  <data value="50">50%</data>
+                  <button
+                    type="button"
+                    onclick="toggleDescription(this)"
+                    style="
+                      background: none;
+                      border: none;
+                      color: var(--orange-yellow-crayola);
+                      margin-left: auto;
+                      font-size: 14px;
+                      cursor: pointer;
+                    "
+                  >
+                    Détails +
+                  </button>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 40%"></div>
+                </div>
+                <div
+                  style="
+                    display: none;
+                    color: var(--light-gray);
+                    font-size: var(--fs-6);
+                    font-weight: var(--fw-300);
+                    line-height: 1.6;
+                    margin-top: 10px;
+                    padding: 10px;
+                    background: var(--eerie-black-1);
+                    border-radius: 8px;
+                    border-left: 2px solid var(--orange-yellow-crayola);
+                  "
+                >
+                  <p>
+                    Connaissance de base des technologies de développement web.
+                    Pour le moment, je peux créer des sites web simples en
+                    utilisant HTML et CSS, avec une certaine compréhension de
+                    JavaScript pour l'interactivité de base. Je continue de
+                    développer ces compétences par l'auto-apprentissage et les
+                    projets.
+                  </p>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <ion-icon
+                    name="trending-up-outline"
+                    style="color: #00adb5"
+                  ></ion-icon>
+                  <h5 class="h5">Python et bases d'IA</h5>
+                  <data value="25">25%</data>
+                  <button
+                    type="button"
+                    onclick="toggleDescription(this)"
+                    style="
+                      background: none;
+                      border: none;
+                      color: var(--orange-yellow-crayola);
+                      margin-left: auto;
+                      font-size: 14px;
+                      cursor: pointer;
+                    "
+                  >
+                    Détails +
+                  </button>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 25%"></div>
+                </div>
+                <div
+                  style="
+                    display: none;
+                    color: var(--light-gray);
+                    font-size: var(--fs-6);
+                    font-weight: var(--fw-300);
+                    line-height: 1.6;
+                    margin-top: 10px;
+                    padding: 10px;
+                    background: var(--eerie-black-1);
+                    border-radius: 8px;
+                    border-left: 2px solid var(--orange-yellow-crayola);
+                  "
+                >
+                  <p>
+                    Bases en Python, avec une compréhension des concepts
+                    fondamentaux. En cours d'apprentissage, avec un intérêt pour
+                    l'analyse de données et l'intelligence artificielle.
+                  </p>
+                </div>
+              </li>
+            </ul>
+
+            <!-- COMPÉTENCES INTERPERSONNELLES -->
+            <h4 class="h4" style="margin-top: 25px; margin-bottom: 5px">
+              Compétences interpersonnelles
+            </h4>
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <ion-icon
+                    name="people-outline"
+                    style="color: #00adb5"
+                  ></ion-icon>
+                  <h5 class="h5">Communication et travail d'équipe</h5>
+                  <data value="90">90%</data>
+                  <button
+                    type="button"
+                    onclick="toggleDescription(this)"
+                    style="
+                      background: none;
+                      border: none;
+                      color: var(--orange-yellow-crayola);
+                      margin-left: auto;
+                      font-size: 14px;
+                      cursor: pointer;
+                    "
+                  >
+                    Détails +
+                  </button>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+                <div
+                  style="
+                    display: none;
+                    color: var(--light-gray);
+                    font-size: var(--fs-6);
+                    font-weight: var(--fw-300);
+                    line-height: 1.6;
+                    margin-top: 10px;
+                    padding: 10px;
+                    background: var(--eerie-black-1);
+                    border-radius: 8px;
+                    border-left: 2px solid var(--orange-yellow-crayola);
+                  "
+                >
+                  <p>
+                    Bonnes compétences en communication orale et écrite, avec la
+                    capacité d'exprimer clairement des idées et de collaborer
+                    efficacement en équipe. À l'écoute des autres et soucieux de
+                    contribuer à un environnement de travail positif.
+                  </p>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <ion-icon
+                    name="time-outline"
+                    style="color: #00adb5"
+                  ></ion-icon>
+                  <h5 class="h5">Organisation et gestion du temps</h5>
+                  <data value="90">90%</data>
+                  <button
+                    type="button"
+                    onclick="toggleDescription(this)"
+                    style="
+                      background: none;
+                      border: none;
+                      color: var(--orange-yellow-crayola);
+                      margin-left: auto;
+                      font-size: 14px;
+                      cursor: pointer;
+                    "
+                  >
+                    Détails +
+                  </button>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+                <div
+                  style="
+                    display: none;
+                    color: var(--light-gray);
+                    font-size: var(--fs-6);
+                    font-weight: var(--fw-300);
+                    line-height: 1.6;
+                    margin-top: 10px;
+                    padding: 10px;
+                    background: var(--eerie-black-1);
+                    border-radius: 8px;
+                    border-left: 2px solid var(--orange-yellow-crayola);
+                  "
+                >
+                  <p>
+                    Personne organisée, capable de prioriser les tâches, de
+                    respecter les échéances et de gérer plusieurs projets à la
+                    fois avec attention aux détails. Utilise des outils
+                    d'organisation pour rester efficace et productif.
+                  </p>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <ion-icon
+                    name="ribbon-outline"
+                    style="color: #00adb5"
+                  ></ion-icon>
+                  <h5 class="h5">Leadership et initiative</h5>
+                  <data value="80">80%</data>
+                  <button
+                    type="button"
+                    onclick="toggleDescription(this)"
+                    style="
+                      background: none;
+                      border: none;
+                      color: var(--orange-yellow-crayola);
+                      margin-left: auto;
+                      font-size: 14px;
+                      cursor: pointer;
+                    "
+                  >
+                    Détails +
+                  </button>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+                <div
+                  style="
+                    display: none;
+                    color: var(--light-gray);
+                    font-size: var(--fs-6);
+                    font-weight: var(--fw-300);
+                    line-height: 1.6;
+                    margin-top: 10px;
+                    padding: 10px;
+                    background: var(--eerie-black-1);
+                    border-radius: 8px;
+                    border-left: 2px solid var(--orange-yellow-crayola);
+                  "
+                >
+                  <p>
+                    À l'aise pour diriger des équipes et prendre des
+                    initiatives, avec une capacité à contribuer à l'atteinte des
+                    objectifs communs. À l'aise aussi à prendre la
+                    responsabilité des projets et guider les autres vers des
+                    résultats réussis.
+                  </p>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <ion-icon
+                    name="sync-outline"
+                    style="color: #00adb5"
+                  ></ion-icon>
+                  <h5 class="h5">Adaptabilité</h5>
+                  <data value="95">95%</data>
+                  <button
+                    type="button"
+                    onclick="toggleDescription(this)"
+                    style="
+                      background: none;
+                      border: none;
+                      color: var(--orange-yellow-crayola);
+                      margin-left: auto;
+                      font-size: 14px;
+                      cursor: pointer;
+                    "
+                  >
+                    Détails +
+                  </button>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 95%"></div>
+                </div>
+                <div
+                  style="
+                    display: none;
+                    color: var(--light-gray);
+                    font-size: var(--fs-6);
+                    font-weight: var(--fw-300);
+                    line-height: 1.6;
+                    margin-top: 10px;
+                    padding: 10px;
+                    background: var(--eerie-black-1);
+                    border-radius: 8px;
+                    border-left: 2px solid var(--orange-yellow-crayola);
+                  "
+                >
+                  <p>
+                    Exceptionnellement adaptable, capable de m'ajuster
+                    rapidement à de nouveaux environnements, outils ou façons de
+                    travailler. J'apprends vite et je garde une attitude
+                    positive même face aux imprévus.
+                  </p>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <ion-icon
+                    name="bulb-outline"
+                    style="color: #00adb5"
+                  ></ion-icon>
+                  <h5 class="h5">Résolution de problèmes</h5>
+                  <data value="85">85%</data>
+                  <button
+                    type="button"
+                    onclick="toggleDescription(this)"
+                    style="
+                      background: none;
+                      border: none;
+                      color: var(--orange-yellow-crayola);
+                      margin-left: auto;
+                      font-size: 14px;
+                      cursor: pointer;
+                    "
+                  >
+                    Détails +
+                  </button>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 85%"></div>
+                </div>
+                <div
+                  style="
+                    display: none;
+                    color: var(--light-gray);
+                    font-size: var(--fs-6);
+                    font-weight: var(--fw-300);
+                    line-height: 1.6;
+                    margin-top: 10px;
+                    padding: 10px;
+                    background: var(--eerie-black-1);
+                    border-radius: 8px;
+                    border-left: 2px solid var(--orange-yellow-crayola);
+                  "
+                >
+                  <p>
+                    Bon esprit analytique, capable d'identifier des problèmes,
+                    de les décomposer et de proposer des solutions efficaces.
+                    J'aborde les défis de façon logique et structurée, en tenant
+                    compte de différents points de vue.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #BIBLIOTHÈQUE
+      -->
+
+        <article class="portfolio" data-page="bibliothèque" id="library-page">
+          <header>
+            <h2 class="h2 article-title">Bibliothèque</h2>
+          </header>
+
+          <section class="projects">
+            <!-- FILTRES -->
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>Tous</button>
+              </li>
+              <li class="filter-item">
+                <button data-filter-btn>Développement personnel</button>
+              </li>
+              <li class="filter-item">
+                <button data-filter-btn>Finance personnelle</button>
+              </li>
+              <li class="filter-item">
+                <button data-filter-btn>Littérature chrétienne</button>
+              </li>
+            </ul>
+
+            <!-- MENU DÉROULANT -->
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-select-value>Catégorie</div>
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>Tous</button>
+                </li>
+                <li class="select-item">
+                  <button data-select-item>Développement personnel</button>
+                </li>
+                <li class="select-item">
+                  <button data-select-item>Finance personnelle</button>
+                </li>
+                <li class="select-item">
+                  <button data-select-item>Littérature chrétienne</button>
+                </li>
+              </ul>
+            </div>
+
+            <!-- LISTE DES LIVRES -->
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="développement-personnel"
+              >
+                <a href="#" onclick="showBookPost(1); return false;">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="book-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="./assets/images/Miracle-Morning.jpg"
+                      alt="Miracle Morning"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <h3 class="project-title">Miracle Morning - Hal Elrod</h3>
+                  <p class="project-category">Développement personnel</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="développement-personnel"
+              >
+                <a href="#" onclick="showBookPost(2); return false;">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="book-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="./assets/images/Atomic_habits.jpg"
+                      alt="Atomic Habits"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <h3 class="project-title">Atomic Habits - James Clear</h3>
+                  <p class="project-category">Développement personnel</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="développement-personnel"
+              >
+                <a href="#" onclick="showBookPost(3); return false;">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="book-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="./assets/images/Pouvoir illimité.jpg"
+                      alt="Pouvoir illimité"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <h3 class="project-title">Pouvoir illimité - Tony Robbins</h3>
+                  <p class="project-category">Développement personnel</p>
+                </a>
+              </li>
+
+              <!-- DÉVELOPPEMENT PERSONNEL (4 livres) -->
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="développement-personnel"
+              >
+                <a href="#" onclick="showBookPost(4); return false;">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="book-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="./assets/images/Comment se faire des amis.jpg"
+                      alt="Comment se faire des amis"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <h3 class="project-title">
+                    Comment se faire des amis - Dale Carnegie
+                  </h3>
+                  <p class="project-category">Développement personnel</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="développement-personnel"
+              >
+                <a href="#" onclick="showBookPost(5); return false;">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="book-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="./assets/images/Comment_parler en public.jpg"
+                      alt="Comment parler en public"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <h3 class="project-title">
+                    Comment parler en public - Dale Carnegie
+                  </h3>
+                  <p class="project-category">Développement personnel</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="développement-personnel"
+              >
+                <a href="#" onclick="showBookPost(6); return false;">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="book-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="./assets/images/Pensez et devenez riche.jpg"
+                      alt="Pensez et devenez riche"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <h3 class="project-title">
+                    Pensez et devenez riche - Napoleon Hill
+                  </h3>
+                  <p class="project-category">Développement personnel</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="développement-personnel"
+              >
+                <a href="#" onclick="showBookPost(7); return false;">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="book-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="./assets/images/Plus malin que le diable.jpg"
+                      alt="Plus malin que le Diable"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <h3 class="project-title">
+                    Plus malin que le Diable - Napoleon Hill
+                  </h3>
+                  <p class="project-category">Développement personnel</p>
+                </a>
+              </li>
+
+              <!-- LITTÉRATURE CHRÉTIENNE (4 livres) -->
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="littérature-chrétienne"
+              >
+                <a href="#" onclick="showBookPost(8); return false;">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="book-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="./assets/images/Une vie motivé par l essentiel.jpg"
+                      alt="Une vie motivée par l'essentiel"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <h3 class="project-title">
+                    Une vie motivée par l'essentiel - Rick Warren
+                  </h3>
+                  <p class="project-category">Littérature chrétienne</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="littérature-chrétienne"
+              >
+                <a href="#" onclick="showBookPost(9); return false;">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="book-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="./assets/images/Un mot aux étudfiant_ZTF.jpg"
+                      alt="Un mot aux étudiants"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <h3 class="project-title">
+                    Un mot aux étudiants - Zacharias Tanee Fomum
+                  </h3>
+                  <p class="project-category">Littérature chrétienne</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="littérature-chrétienne"
+              >
+                <a href="#" onclick="showBookPost(10); return false;">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="book-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="./assets/images/Bible Louis Second.jpg"
+                      alt="La Bible"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <h3 class="project-title">La Bible - Sainte Bible</h3>
+                  <p class="project-category">Littérature chrétienne</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="littérature-chrétienne"
+              >
+                <a href="#" onclick="showBookPost(11); return false;">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="book-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="./assets/images/L'utilisation du tempS_ZTF.jpg"
+                      alt="L'utilisation du temps"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <h3 class="project-title">
+                    L'utilisation du temps - Zacharias Tanee Fomum
+                  </h3>
+                  <p class="project-category">Littérature chrétienne</p>
+                </a>
+              </li>
+
+              <!-- FINANCE PERSONNELLE (2 livres) -->
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="finance-personnelle"
+              >
+                <a href="#" onclick="showBookPost(12); return false;">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="book-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="./assets/images/La chèvre de ma mère.jpg"
+                      alt="La chèvre de ma mère"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <h3 class="project-title">
+                    La chèvre de ma mère - Ricardo Kaniam
+                  </h3>
+                  <p class="project-category">Finance personnelle</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="finance-personnelle"
+              >
+                <a href="#" onclick="showBookPost(13); return false;">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="book-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="./assets/images/En as-tu vraiment besoin.jpg"
+                      alt="En as-tu vraiment besoin"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <h3 class="project-title">
+                    En as-tu vraiment besoin ? - Pierre-Yves McSween
+                  </h3>
+                  <p class="project-category">Finance personnelle</p>
+                </a>
+              </li>
+            </ul>
+
+            <!-- DÉTAILS DES LIVRES -->
+            <div
+              id="book-post-1-detail"
+              class="book-post-detail"
+              style="display: none"
+            >
+              <button onclick="showBookList();" class="back-to-library-btn">
+                <ion-icon name="arrow-back-outline"></ion-icon> Retour à la
+                bibliothèque
+              </button>
+
+              <div class="book-post-item detail-view">
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Développement personnel</p>
+                    <span class="dot"></span>
+                    <time datetime="2024-01-15">15 janv. 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">
+                    Miracle Morning - Hal Elrod
+                  </h3>
+
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/Miracle-Morning.jpg"
+                      alt="Miracle Morning"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="book-detail-content">
+                    <p>
+                      <strong>Résumé :</strong> Ce livre propose une méthode
+                      matinale puissante pour transformer sa vie en commençant
+                      sa journée avec 6 habitudes clés : silence, affirmation,
+                      visualisation, exercice, lecture, écriture.
+                    </p>
+
+                    <h4 class="h4">Leçons apprises</h4>
+                    <p>
+                      Ma journée commence mieux quand je prends le temps de
+                      m'organiser, de réfléchir et de me motiver dès le matin.
+                      La discipline matinale améliore ma productivité et ma paix
+                      intérieure.
+                    </p>
+
+                    <h4 class="h4">Les 6 pratiques S.A.V.E.R.S</h4>
+                    <p>
+                      <strong>S</strong>ilence (méditation),
+                      <strong>A</strong>ffirmations,
+                      <strong>V</strong>isualisation, <strong>E</strong>xercice,
+                      <strong>R</strong>eading (lecture),
+                      <strong>S</strong>cribing (écriture). Chaque pratique
+                      contribue à créer une routine matinale transformatrice.
+                    </p>
+
+                    <h4 class="h4">Recommandation</h4>
+                    <p>
+                      Pour tous ceux qui veulent reprendre leur vie en main et
+                      commencer chaque journée avec intention et énergie
+                      positive.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              id="book-post-2-detail"
+              class="book-post-detail"
+              style="display: none"
+            >
+              <button onclick="showBookList();" class="back-to-library-btn">
+                <ion-icon name="arrow-back-outline"></ion-icon> Retour à la
+                bibliothèque
+              </button>
+
+              <div class="book-post-item detail-view">
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Développement personnel</p>
+                    <span class="dot"></span>
+                    <time datetime="2024-03-20">20 mars 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">
+                    Atomic Habits - James Clear
+                  </h3>
+
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/Atomic_habits.jpg"
+                      alt="Atomic Habits"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="book-detail-content">
+                    <p>
+                      <strong>Résumé :</strong> Apprends à créer des habitudes
+                      efficaces, à abandonner les mauvaises et à transformer ta
+                      vie par de petits changements réguliers.
+                    </p>
+
+                    <h4 class="h4">Leçons apprises</h4>
+                    <p>
+                      Ce livre m'a montré que ce sont les petits gestes
+                      quotidiens qui mènent aux grandes réussites. J'ai appris à
+                      me concentrer sur la constance plutôt que sur la
+                      perfection.
+                    </p>
+
+                    <h4 class="h4">La règle des 1%</h4>
+                    <p>
+                      S'améliorer de seulement 1% chaque jour peut sembler
+                      insignifiant, mais cela représente une amélioration de 37
+                      fois sur une année. Les petites améliorations constantes
+                      battent les grands changements sporadiques.
+                    </p>
+
+                    <h4 class="h4">Les 4 lois du changement de comportement</h4>
+                    <p>
+                      1. Rendre évident, 2. Rendre attrayant, 3. Rendre facile,
+                      4. Rendre satisfaisant. Ces quatre étapes forment la base
+                      pour créer de bonnes habitudes et éliminer les mauvaises.
+                    </p>
+
+                    <h4 class="h4">Recommandation</h4>
+                    <p>
+                      Idéal pour ceux qui veulent changer leur comportement en
+                      douceur et créer des systèmes durables plutôt que de se
+                      fier uniquement à la motivation.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              id="book-post-3-detail"
+              class="book-post-detail"
+              style="display: none"
+            >
+              <button onclick="showBookList();" class="back-to-library-btn">
+                <ion-icon name="arrow-back-outline"></ion-icon> Retour à la
+                bibliothèque
+              </button>
+
+              <div class="book-post-item detail-view">
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Développement personnel</p>
+                    <span class="dot"></span>
+                    <time datetime="2024-05-10">10 mai 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">
+                    Pouvoir illimité - Tony Robbins
+                  </h3>
+
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/Pouvoir illimité.jpg"
+                      alt="Pouvoir illimité"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="book-detail-content">
+                    <p>
+                      <strong>Résumé :</strong> Tony Robbins révèle comment
+                      développer son potentiel personnel à travers la
+                      programmation neuro-linguistique (PNL), la motivation et
+                      la maîtrise mentale.
+                    </p>
+
+                    <h4 class="h4">Leçons apprises</h4>
+                    <p>
+                      J'ai compris que mes croyances limitantes m'empêchaient
+                      d'avancer. Ce livre m'a donné des outils pour reprogrammer
+                      mon mental et croire en mes capacités.
+                    </p>
+
+                    <h4 class="h4">Les 6 besoins humains fondamentaux</h4>
+                    <p>
+                      Certitude, incertitude/variété, importance,
+                      connexion/amour, croissance et contribution. Comprendre
+                      ces besoins aide à mieux se connaître et à prendre de
+                      meilleures décisions.
+                    </p>
+
+                    <h4 class="h4">Le pouvoir des questions</h4>
+                    <p>
+                      Les questions que nous nous posons façonnent notre
+                      réalité. Poser de meilleures questions mène à de
+                      meilleures réponses et à une vie plus épanouissante.
+                    </p>
+
+                    <h4 class="h4">Recommandation</h4>
+                    <p>
+                      Pour ceux qui veulent renforcer leur mental et dépasser
+                      leurs barrières internes. Un guide puissant pour libérer
+                      son potentiel.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- ========================================
+     PAGES DÉTAILLÉES DES NOUVEAUX LIVRES
+     Ajoutez ceci après vos 3 livres existants
+     ======================================== -->
+
+            <!-- LIVRE 4 - Comment se faire des amis -->
+            <div
+              id="book-post-4-detail"
+              class="book-post-detail"
+              style="display: none"
+            >
+              <button onclick="showBookList();" class="back-to-library-btn">
+                <ion-icon name="arrow-back-outline"></ion-icon> Retour à la
+                bibliothèque
+              </button>
+
+              <div class="book-post-item detail-view">
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Développement personnel</p>
+                    <span class="dot"></span>
+                    <time datetime="2024-02-20">20 fév. 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">
+                    Comment se faire des amis - Dale Carnegie
+                  </h3>
+
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/Comment se faire des amis.jpg"
+                      alt="Comment se faire des amis"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="book-detail-content">
+                    <p>
+                      <strong>Résumé :</strong> Le livre de référence pour
+                      développer ses compétences relationnelles et sociales.
+                      Dale Carnegie enseigne les principes fondamentaux pour
+                      créer des liens authentiques et durables.
+                    </p>
+
+                    <h4 class="h4">Leçons apprises</h4>
+                    <p>
+                      Ce livre m'a appris l'importance de l'écoute active et de
+                      l'empathie. J'ai compris que pour influencer positivement
+                      les autres, il faut d'abord s'intéresser sincèrement à eux
+                      et à leurs besoins.
+                    </p>
+
+                    <h4 class="h4">Les 6 façons de se faire aimer</h4>
+                    <p>
+                      Montrer un intérêt sincère pour les autres, sourire,
+                      retenir les noms, être un bon auditeur, parler des centres
+                      d'intérêt de l'autre, et faire sentir aux gens leur
+                      importance de manière sincère.
+                    </p>
+
+                    <h4 class="h4">Impact personnel</h4>
+                    <p>
+                      Grâce à ces principes, mes relations interpersonnelles se
+                      sont considérablement améliorées. Je suis devenu plus
+                      attentif aux besoins des autres et plus efficace dans mes
+                      interactions sociales.
+                    </p>
+
+                    <h4 class="h4">Recommandation</h4>
+                    <p>
+                      Indispensable pour tous ceux qui veulent améliorer leurs
+                      relations personnelles et professionnelles. Un classique
+                      intemporel qui reste d'une actualité remarquable.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- LIVRE 5 - Comment parler en public -->
+            <div
+              id="book-post-5-detail"
+              class="book-post-detail"
+              style="display: none"
+            >
+              <button onclick="showBookList();" class="back-to-library-btn">
+                <ion-icon name="arrow-back-outline"></ion-icon> Retour à la
+                bibliothèque
+              </button>
+
+              <div class="book-post-item detail-view">
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Développement personnel</p>
+                    <span class="dot"></span>
+                    <time datetime="2024-03-10">10 mars 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">
+                    Comment parler en public - Dale Carnegie
+                  </h3>
+
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/Comment_parler en public.jpg"
+                      alt="Comment parler en public"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="book-detail-content">
+                    <p>
+                      <strong>Résumé :</strong> Guide pratique pour surmonter la
+                      peur de parler en public et développer ses compétences
+                      oratoires. Carnegie partage des techniques éprouvées pour
+                      captiver et convaincre un auditoire.
+                    </p>
+
+                    <h4 class="h4">Leçons apprises</h4>
+                    <p>
+                      J'ai appris que la peur de parler en public est normale et
+                      peut être surmontée par la préparation et la pratique. La
+                      clé est de se concentrer sur le message plutôt que sur
+                      soi-même.
+                    </p>
+
+                    <h4 class="h4">Techniques essentielles</h4>
+                    <p>
+                      Préparer minutieusement son discours, utiliser des
+                      exemples concrets, maintenir le contact visuel, moduler sa
+                      voix et terminer par un appel à l'action clair et
+                      mémorable.
+                    </p>
+
+                    <h4 class="h4">Application pratique</h4>
+                    <p>
+                      Ces techniques m'ont aidé lors de mes présentations au
+                      collège et dans mes responsabilités au conseil
+                      d'administration de la Coopsco. Ma confiance en moi s'est
+                      nettement améliorée.
+                    </p>
+
+                    <h4 class="h4">Recommandation</h4>
+                    <p>
+                      Essentiel pour les étudiants et professionnels qui veulent
+                      développer leur leadership et leur capacité à communiquer
+                      efficacement en public.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- LIVRE 6 - Pensez et devenez riche -->
+            <div
+              id="book-post-6-detail"
+              class="book-post-detail"
+              style="display: none"
+            >
+              <button onclick="showBookList();" class="back-to-library-btn">
+                <ion-icon name="arrow-back-outline"></ion-icon> Retour à la
+                bibliothèque
+              </button>
+
+              <div class="book-post-item detail-view">
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Développement personnel</p>
+                    <span class="dot"></span>
+                    <time datetime="2024-04-15">15 avril 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">
+                    Pensez et devenez riche - Napoleon Hill
+                  </h3>
+
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/Pensez et devenez riche.jpg"
+                      alt="Pensez et devenez riche"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="book-detail-content">
+                    <p>
+                      <strong>Résumé :</strong> Basé sur l'étude des plus grands
+                      entrepreneurs de l'époque, ce livre révèle les 13
+                      principes de la réussite financière et personnelle. Un
+                      classique du développement personnel.
+                    </p>
+
+                    <h4 class="h4">Leçons apprises</h4>
+                    <p>
+                      La richesse commence dans l'esprit. Avoir un désir ardent,
+                      une foi inébranlable et un plan d'action précis sont les
+                      fondements de toute réussite. La persistance est cruciale
+                      face aux obstacles.
+                    </p>
+
+                    <h4 class="h4">Les 13 principes</h4>
+                    <p>
+                      Désir ardent, foi, autosuggestion, connaissance
+                      spécialisée, imagination, planification organisée,
+                      décision, persistance, maîtrise de soi, et le pouvoir du
+                      subconscient, entre autres.
+                    </p>
+
+                    <h4 class="h4">Impact sur mes études</h4>
+                    <p>
+                      Ce livre m'a aidé à clarifier mes objectifs de carrière en
+                      comptabilité et à développer une mentalité de réussite.
+                      J'applique ces principes dans mes projets académiques et
+                      mes ambitions professionnelles.
+                    </p>
+
+                    <h4 class="h4">Recommandation</h4>
+                    <p>
+                      Incontournable pour tous ceux qui aspirent à la réussite
+                      financière et personnelle. Un guide pratique qui change
+                      véritablement la façon de penser.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- LIVRE 7 - Plus malin que le Diable -->
+            <div
+              id="book-post-7-detail"
+              class="book-post-detail"
+              style="display: none"
+            >
+              <button onclick="showBookList();" class="back-to-library-btn">
+                <ion-icon name="arrow-back-outline"></ion-icon> Retour à la
+                bibliothèque
+              </button>
+
+              <div class="book-post-item detail-view">
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Développement personnel</p>
+                    <span class="dot"></span>
+                    <time datetime="2024-05-20">20 mai 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">
+                    Plus malin que le Diable - Napoleon Hill
+                  </h3>
+
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/Plus malin que le diable.jpg"
+                      alt="Plus malin que le Diable"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="book-detail-content">
+                    <p>
+                      <strong>Résumé :</strong> Dialogue imaginaire entre
+                      Napoleon Hill et le Diable révélant les secrets de la
+                      liberté mentale et spirituelle. Un livre puissant sur la
+                      maîtrise de soi et la réalisation de son potentiel.
+                    </p>
+
+                    <h4 class="h4">Leçons apprises</h4>
+                    <p>
+                      J'ai découvert comment les peurs et les doutes limitent
+                      notre potentiel. La procrastination et l'indécision sont
+                      les plus grands ennemis du succès. Il faut cultiver une
+                      pensée indépendante et définitive.
+                    </p>
+
+                    <h4 class="h4">La dérive mentale</h4>
+                    <p>
+                      Hill explique comment 98% des gens vivent dans la "dérive
+                      mentale", laissant les circonstances extérieures contrôler
+                      leur destinée. Les 2% restants prennent le contrôle de
+                      leur esprit et de leur vie.
+                    </p>
+
+                    <h4 class="h4">Application personnelle</h4>
+                    <p>
+                      Ce livre m'a encouragé à prendre des décisions plus
+                      rapides et à persévérer malgré les obstacles. J'ai appris
+                      à questionner mes croyances limitantes et à développer ma
+                      pensée critique.
+                    </p>
+
+                    <h4 class="h4">Recommandation</h4>
+                    <p>
+                      Pour ceux qui veulent se libérer des limitations mentales
+                      et prendre le contrôle total de leur destinée. Complément
+                      parfait à "Pensez et devenez riche".
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- LIVRE 8 - Une vie motivée par l'essentiel -->
+            <div
+              id="book-post-8-detail"
+              class="book-post-detail"
+              style="display: none"
+            >
+              <button onclick="showBookList();" class="back-to-library-btn">
+                <ion-icon name="arrow-back-outline"></ion-icon> Retour à la
+                bibliothèque
+              </button>
+
+              <div class="book-post-item detail-view">
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Littérature chrétienne</p>
+                    <span class="dot"></span>
+                    <time datetime="2024-01-10">10 janv. 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">
+                    Une vie motivée par l'essentiel - Rick Warren
+                  </h3>
+
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/Une vie motivé par l essentiel.jpg"
+                      alt="Une vie motivée par l'essentiel"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="book-detail-content">
+                    <p>
+                      <strong>Résumé :</strong> Guide spirituel qui explore les
+                      cinq objectifs que Dieu a pour chaque vie : l'adoration,
+                      la communion, la formation spirituelle, le ministère et
+                      l'évangélisation.
+                    </p>
+
+                    <h4 class="h4">Leçons apprises</h4>
+                    <p>
+                      J'ai compris que ma vie a un but divin et que chaque
+                      expérience contribue à ce plan. Ce livre m'a aidé à
+                      aligner mes priorités sur les valeurs éternelles plutôt
+                      que sur les succès temporaires.
+                    </p>
+
+                    <h4 class="h4">Les 5 objectifs de la vie</h4>
+                    <p>
+                      Adorer Dieu (culte), appartenir à sa famille (communion
+                      fraternelle), devenir comme le Christ (formation), servir
+                      Dieu (ministère), et accomplir sa mission sur terre
+                      (évangélisation).
+                    </p>
+
+                    <h4 class="h4">Impact spirituel</h4>
+                    <p>
+                      Ce livre a transformé ma perspective sur mes études et ma
+                      future carrière. Je vois maintenant ma formation en
+                      comptabilité comme un moyen de servir Dieu et d'avoir un
+                      impact positif dans ma communauté.
+                    </p>
+
+                    <h4 class="h4">Recommandation</h4>
+                    <p>
+                      Essentiel pour tout chrétien cherchant à découvrir son
+                      appel et à vivre une vie significative. Un guide pratique
+                      pour aligner sa vie sur la volonté de Dieu.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- LIVRE 9 - Un mot aux étudiants -->
+            <div
+              id="book-post-9-detail"
+              class="book-post-detail"
+              style="display: none"
+            >
+              <button onclick="showBookList();" class="back-to-library-btn">
+                <ion-icon name="arrow-back-outline"></ion-icon> Retour à la
+                bibliothèque
+              </button>
+
+              <div class="book-post-item detail-view">
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Littérature chrétienne</p>
+                    <span class="dot"></span>
+                    <time datetime="2023-09-15">15 sept. 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">
+                    Un mot aux étudiants - Zacharias Tanee Fomum
+                  </h3>
+
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/Un mot aux étudfiant_ZTF.jpg"
+                      alt="Un mot aux étudiants"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="book-detail-content">
+                    <p>
+                      <strong>Résumé :</strong> Conseil spirituel spécifiquement
+                      adressé aux étudiants chrétiens. ZTF partage des principes
+                      pour réussir académiquement tout en grandissant
+                      spirituellement.
+                    </p>
+
+                    <h4 class="h4">Leçons apprises</h4>
+                    <p>
+                      J'ai appris que l'excellence académique et la croissance
+                      spirituelle peuvent aller de pair. Mes études ne doivent
+                      pas être une excuse pour négliger ma relation avec Dieu,
+                      mais plutôt un moyen de l'honorer.
+                    </p>
+
+                    <h4 class="h4">Principes pour étudiants</h4>
+                    <p>
+                      Maintenir une vie de prière consistante, gérer
+                      efficacement son temps, chercher l'excellence dans ses
+                      études, et utiliser ses connaissances pour servir Dieu et
+                      la société.
+                    </p>
+
+                    <h4 class="h4">Application dans mes études</h4>
+                    <p>
+                      Ce livre m'accompagne dans mon parcours au Collège d'Alma.
+                      Il m'aide à voir mes études en comptabilité comme un
+                      service à Dieu et me motive à donner le meilleur de
+                      moi-même.
+                    </p>
+
+                    <h4 class="h4">Recommandation</h4>
+                    <p>
+                      Parfait pour les étudiants chrétiens cherchant à
+                      équilibrer réussite académique et croissance spirituelle.
+                      Un guide pratique et inspirant pour la vie étudiante.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- LIVRE 10 - La Bible -->
+            <div
+              id="book-post-10-detail"
+              class="book-post-detail"
+              style="display: none"
+            >
+              <button onclick="showBookList();" class="back-to-library-btn">
+                <ion-icon name="arrow-back-outline"></ion-icon> Retour à la
+                bibliothèque
+              </button>
+
+              <div class="book-post-item detail-view">
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Littérature chrétienne</p>
+                    <span class="dot"></span>
+                    <time datetime="2023-01-01">1 janv. 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">La Bible - Sainte Bible</h3>
+
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/Bible Louis Second.jpg"
+                      alt="La Bible"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="book-detail-content">
+                    <p>
+                      <strong>Résumé :</strong> La Parole de Dieu, source de
+                      sagesse, de guidance et d'inspiration pour la vie
+                      chrétienne. Livre fondamental contenant l'histoire du
+                      salut et les enseignements du Christ.
+                    </p>
+
+                    <h4 class="h4">Impact spirituel</h4>
+                    <p>
+                      La Bible est ma source quotidienne de force et de sagesse.
+                      Elle guide mes décisions, nourrit ma foi et me rappelle
+                      constamment l'amour inconditionnel de Dieu pour moi.
+                    </p>
+
+                    <h4 class="h4">Versets favoris</h4>
+                    <p>
+                      "Car je connais les projets que j'ai formés sur vous, dit
+                      l'Éternel, projets de paix et non de malheur, afin de vous
+                      donner un avenir et de l'espérance." (Jérémie 29:11)
+                    </p>
+
+                    <h4 class="h4">Lecture quotidienne</h4>
+                    <p>
+                      Je maintiens une habitude de lecture biblique quotidienne
+                      qui nourrit ma croissance spirituelle. Chaque passage
+                      révèle de nouvelles vérités applicables à ma vie
+                      d'étudiant et de jeune adulte.
+                    </p>
+
+                    <h4 class="h4">Recommandation</h4>
+                    <p>
+                      Fondement de la foi chrétienne et source inépuisable de
+                      sagesse pour tous les aspects de la vie. Un trésor qui
+                      transforme celui qui la lit avec un cœur ouvert.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- LIVRE 11 - L'utilisation du temps -->
+            <div
+              id="book-post-11-detail"
+              class="book-post-detail"
+              style="display: none"
+            >
+              <button onclick="showBookList();" class="back-to-library-btn">
+                <ion-icon name="arrow-back-outline"></ion-icon> Retour à la
+                bibliothèque
+              </button>
+
+              <div class="book-post-item detail-view">
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Littérature chrétienne</p>
+                    <span class="dot"></span>
+                    <time datetime="2024-06-05">5 juin 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">
+                    L'utilisation du temps - Zacharias Tanee Fomum
+                  </h3>
+
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/L'utilisation du tempS_ZTF.jpg"
+                      alt="L'utilisation du temps"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="book-detail-content">
+                    <p>
+                      <strong>Résumé :</strong> Guide spirituel sur la gestion
+                      du temps selon les principes bibliques. ZTF enseigne
+                      comment utiliser efficacement le temps que Dieu nous
+                      accorde pour accomplir sa volonté.
+                    </p>
+
+                    <h4 class="h4">Leçons apprises</h4>
+                    <p>
+                      Le temps est un don précieux de Dieu dont nous devons
+                      rendre compte. Chaque minute doit être utilisée
+                      intentionnellement pour glorifier Dieu et servir son
+                      royaume sur terre.
+                    </p>
+
+                    <h4 class="h4">Principes de gestion du temps</h4>
+                    <p>
+                      Planifier selon la volonté de Dieu, éliminer les activités
+                      futiles, prioriser l'éternel sur le temporel, et maintenir
+                      un équilibre entre travail, repos et adoration.
+                    </p>
+
+                    <h4 class="h4">Application pratique</h4>
+                    <p>
+                      Ce livre m'aide à mieux organiser mes journées d'étudiant.
+                      Je planifie maintenant mes activités en gardant à l'esprit
+                      mes priorités spirituelles et académiques.
+                    </p>
+
+                    <h4 class="h4">Recommandation</h4>
+                    <p>
+                      Indispensable pour tout chrétien désirant maximiser son
+                      impact pour le royaume de Dieu. Transforme radicalement la
+                      façon dont on perçoit et utilise le temps.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- LIVRE 12 - La chèvre de ma mère -->
+            <div
+              id="book-post-12-detail"
+              class="book-post-detail"
+              style="display: none"
+            >
+              <button onclick="showBookList();" class="back-to-library-btn">
+                <ion-icon name="arrow-back-outline"></ion-icon> Retour à la
+                bibliothèque
+              </button>
+
+              <div class="book-post-item detail-view">
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Finance personnelle</p>
+                    <span class="dot"></span>
+                    <time datetime="2024-07-12">12 juill. 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">
+                    La chèvre de ma mère - Ricardo Kaniam
+                  </h3>
+
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/La chèvre de ma mère.jpg"
+                      alt="La chèvre de ma mère"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="book-detail-content">
+                    <p>
+                      <strong>Résumé :</strong> Récit inspirant d'un
+                      entrepreneur africain qui a bâti un empire financier à
+                      partir de rien. Histoire de persévérance, d'innovation et
+                      de réussite dans un contexte africain.
+                    </p>
+
+                    <h4 class="h4">Leçons apprises</h4>
+                    <p>
+                      L'entrepreneuriat peut commencer avec très peu de moyens.
+                      La détermination, la créativité et la persévérance sont
+                      plus importantes que le capital initial. Chaque petit pas
+                      compte vers la réussite.
+                    </p>
+
+                    <h4 class="h4">Inspiration entrepreneuriale</h4>
+                    <p>
+                      Cette histoire m'inspire dans mes projets futurs. Elle
+                      démontre qu'avec de la vision et du travail acharné, on
+                      peut transformer des opportunités simples en succès
+                      remarquables.
+                    </p>
+
+                    <h4 class="h4">Leçons financières</h4>
+                    <p>
+                      Importance de l'épargne, de l'investissement intelligent
+                      et de la diversification des sources de revenus. Les
+                      principes de base de la gestion financière sont
+                      universels.
+                    </p>
+
+                    <h4 class="h4">Recommandation</h4>
+                    <p>
+                      Motivant pour tous ceux qui rêvent d'entrepreneuriat ou
+                      qui cherchent l'inspiration pour améliorer leur situation
+                      financière. Un modèle de réussite authentique et
+                      accessible.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- LIVRE 13 - En as-tu vraiment besoin ? -->
+            <div
+              id="book-post-13-detail"
+              class="book-post-detail"
+              style="display: none"
+            >
+              <button onclick="showBookList();" class="back-to-library-btn">
+                <ion-icon name="arrow-back-outline"></ion-icon> Retour à la
+                bibliothèque
+              </button>
+
+              <div class="book-post-item detail-view">
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Finance personnelle</p>
+                    <span class="dot"></span>
+                    <time datetime="2024-08-01">1 août 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">
+                    En as-tu vraiment besoin ? - Pierre-Yves McSween
+                  </h3>
+
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/En as-tu vraiment besoin.jpg"
+                      alt="En as-tu vraiment besoin"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="book-detail-content">
+                    <p>
+                      <strong>Résumé :</strong> Guide pratique québécois sur la
+                      consommation responsable et l'épargne intelligente.
+                      McSween démystifie les pièges du marketing et enseigne
+                      comment dépenser judicieusement.
+                    </p>
+
+                    <h4 class="h4">Leçons apprises</h4>
+                    <p>
+                      J'ai appris à questionner chaque achat en me demandant si
+                      j'en ai vraiment besoin. Cette simple question a
+                      transformé mes habitudes de consommation et m'aide à
+                      épargner davantage.
+                    </p>
+
+                    <h4 class="h4">Principe de base</h4>
+                    <p>
+                      Différencier les besoins réels des désirs créés par le
+                      marketing. Prendre le temps de réfléchir avant chaque
+                      achat important et privilégier la qualité à la quantité.
+                    </p>
+
+                    <h4 class="h4">Application étudiante</h4>
+                    <p>
+                      Ce livre m'aide énormément dans ma gestion budgétaire
+                      d'étudiant. J'évite maintenant les achats impulsifs et je
+                      planifie mieux mes dépenses selon mes vraies priorités.
+                    </p>
+
+                    <h4 class="h4">Recommandation</h4>
+                    <p>
+                      Essentiel pour tous les étudiants et jeunes adultes
+                      québécois. Approche pratique et terre-à-terre pour
+                      développer de saines habitudes financières dès le début de
+                      la vie adulte.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </article>
+        <!--
+        - #BLOGUE
+      -->
+        <article class="blog" data-page="blogue" id="blog-page">
+          <header>
+            <h2 class="h2 article-title">Blogue</h2>
+          </header>
+
+          <section class="blog-posts">
+            <ul class="blog-posts-list">
+              <li class="blog-post-item">
+                <a href="#" onclick="showBlogPost(1); return false;">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-1.jpg"
+                      alt="Mon parcours"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Biographie</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2025-06-23">23 jun. 2025</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Je viens de loin</h3>
+
+                    <p class="blog-text">
+                      Lisez mon histoire, un parcours passionnant qui, je crois,
+                      inspirera de nombreux jeunes. Il contient beaucoup de
+                      leçons à tirer. Découvrez comment j'ai surmonté les défis,
+                      adapté à de nouveaux environnements et poursuivi mes rêves
+                      malgré les obstacles.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#" onclick="showBlogPost(2); return false;">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/maitriser ses finances.jpg"
+                      alt="Maîtriser ses finances"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Finance</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2025-06-23">23 jun. 2025</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Comment maîtriser ses finances ?
+                    </h3>
+
+                    <p class="blog-text">
+                      Maîtriser ses finances personnelles demande de la
+                      discipline et une bonne organisation. Il est essentiel de
+                      distinguer ses besoins réels de ses envies, de planifier
+                      ses dépenses et d'établir un budget adapté à sa situation.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#" onclick="showBlogPost(3); return false;">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-3.jpg"
+                      alt="Son amour est grand"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Spiritualité</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2025-06-23">23 jun. 2025</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Son amour est grand</h3>
+
+                    <p class="blog-text">
+                      Dieu t'aime, Il t'aime, peu importe ta situation, ou ce
+                      que tu traverses. Son amour est inconditionnel et ne
+                      dépend pas de tes erreurs ou de tes réussites.
+                    </p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+
+            <!-- Articles de blog détaillés -->
+            <div
+              id="blog-post-1-detail"
+              class="blog-post-detail"
+              style="display: none"
+            >
+              <button onclick="showBlogList();" class="back-to-blogs-btn">
+                <ion-icon name="arrow-back-outline"></ion-icon> Retour aux
+                blogues
+              </button>
+
+              <div class="blog-post-item detail-view">
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Biographie</p>
+                    <span class="dot"></span>
+                    <time datetime="2025-06-23">23 jun. 2025</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Je viens de loin</h3>
+
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-1.jpg"
+                      alt="Mon parcours complet"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-detail-content">
+                    <div class="demo-notice">
+                      <p>
+                        Note : contenu en démonstration, la version complète
+                        sera disponible bientôt.
+                      </p>
+                    </div>
+                    <p>
+                      Lisez mon histoire, un parcours passionnant qui, je crois,
+                      inspirera de nombreux jeunes. Il contient beaucoup de
+                      leçons à tirer. Découvrez comment j'ai surmonté les défis,
+                      adapté à de nouveaux environnements et poursuivi mes rêves
+                      malgré les obstacles.
+                    </p>
+
+                    <p>
+                      Mon parcours est marqué par la persévérance, la foi et la
+                      volonté de réussir. J'espère que mon histoire vous
+                      inspirera à croire en vous et à ne jamais abandonner, peu
+                      importe d'où vous venez.
+                    </p>
+
+                    <h4 class="h4">Les premiers défis</h4>
+                    <p>
+                      Né dans un petit village, j'ai dû faire face à de nombreux
+                      défis dès mon plus jeune âge. Les ressources étaient
+                      limitées, mais les rêves étaient grands. Chaque jour était
+                      une leçon de vie, m'enseignant la valeur du travail
+                      acharné et de la persévérance.
+                    </p>
+
+                    <h4 class="h4">L'importance de l'éducation</h4>
+                    <p>
+                      Malgré les difficultés économiques, mes parents ont
+                      toujours insisté sur l'importance de l'éducation. Je me
+                      souviens des longues marches jusqu'à l'école, parfois sous
+                      la pluie, parfois sous un soleil de plomb. Ces trajets
+                      quotidiens ont forgé ma détermination.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              id="blog-post-2-detail"
+              class="blog-post-detail"
+              style="display: none"
+            >
+              <button onclick="showBlogList();" class="back-to-blogs-btn">
+                <ion-icon name="arrow-back-outline"></ion-icon> Retour aux
+                blogues
+              </button>
+
+              <div class="blog-post-item detail-view">
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Finance</p>
+                    <span class="dot"></span>
+                    <time datetime="2025-06-23">23 jun. 2025</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">
+                    Comment maîtriser ses finances ?
+                  </h3>
+
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/maitriser ses finances.jpg"
+                      alt="Guide financier complet"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-detail-content">
+                    <div class="demo-notice">
+                      <p>
+                        Note : contenu en démonstration, la version complète
+                        sera disponible bientôt.
+                      </p>
+                    </div>
+                    <p>
+                      Maîtriser ses finances personnelles demande de la
+                      discipline et une bonne organisation. Il est essentiel de
+                      distinguer ses besoins réels de ses envies, de planifier
+                      ses dépenses et d'établir un budget adapté à sa situation.
+                    </p>
+
+                    <h4 class="h4">Établir un budget réaliste</h4>
+                    <p>
+                      La première étape pour maîtriser ses finances est de créer
+                      un budget détaillé. Listez toutes vos sources de revenus
+                      et vos dépenses mensuelles. Catégorisez vos dépenses
+                      (logement, alimentation, transport, loisirs, etc.) pour
+                      identifier où va votre argent.
+                    </p>
+
+                    <h4 class="h4">La règle des 50-30-20</h4>
+                    <p>
+                      Une méthode simple consiste à allouer 50% de vos revenus
+                      aux besoins essentiels, 30% aux désirs et 20% à l'épargne
+                      et au remboursement des dettes. Cette règle vous aide à
+                      maintenir un équilibre sain dans vos finances.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              id="blog-post-3-detail"
+              class="blog-post-detail"
+              style="display: none"
+            >
+              <button onclick="showBlogList();" class="back-to-blogs-btn">
+                <ion-icon name="arrow-back-outline"></ion-icon> Retour aux
+                blogues
+              </button>
+
+              <div class="blog-post-item detail-view">
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Spiritualité</p>
+                    <span class="dot"></span>
+                    <time datetime="2025-06-23">23 jun. 2025</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Son amour est grand</h3>
+
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-3.jpg"
+                      alt="Amour divin"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-detail-content">
+                    <div class="demo-notice">
+                      <p>
+                        Note : contenu en démonstration, la version complète
+                        sera disponible bientôt.
+                      </p>
+                    </div>
+                    <p>
+                      Dieu t'aime, Il t'aime, peu importe ta situation, ou ce
+                      que tu traverses. Son amour est inconditionnel et ne
+                      dépend pas de tes erreurs ou de tes réussites.
+                    </p>
+
+                    <p>
+                      Même dans les moments les plus difficiles, tu peux compter
+                      sur Lui pour te soutenir, te relever et te guider. Crois
+                      en Sa bonté, ouvre ton cœur à Sa présence, et laisse Son
+                      amour transformer ta vie chaque jour.
+                    </p>
+
+                    <h4 class="h4">Un amour sans limites</h4>
+                    <p>
+                      L'amour de Dieu est comme un océan sans fin - profond,
+                      vaste et inépuisable. Contrairement à l'amour humain qui
+                      peut être conditionnel ou changeant, l'amour divin reste
+                      constant, quelles que soient les circonstances.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </article>
+
+        <!--
+        - #PROJETS
+      -->
+
+        <!--
+        - #PROJETS
+      -->
+
+        <article class="blog" data-page="projets" id="projects-page">
+          <header>
+            <h2 class="h2 article-title">Projets</h2>
+          </header>
+
+          <section class="blog-posts">
+            <ul class="blog-posts-list">
+              <li class="blog-post-item">
+                <a href="#" onclick="showProjectPost(2); return false;">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/Project_Syst_Excel.jpg"
+                      alt="Système de paie Excel"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Académique</p>
+                      <span class="dot"></span>
+                      <time datetime="2025-06-15">15 juin 2025</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      🧾 Système de gestion de la paie - Projet SIG | Hiver 2025
+                    </h3>
+
+                    <p class="blog-text">
+                      Outil automatisé développé avec Excel et VBA dans le cadre
+                      du cours Système d'information de gestion au Collège
+                      d'Alma.<br />
+                      Il permet la gestion complète de la paie hebdomadaire pour
+                      une PME fictive InfoSolution : feuilles de temps,
+                      bulletins de paie, tableau de bord, calculs de déductions
+                      selon les barèmes fiscaux québécois, etc.
+                    </p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+
+            <div
+              id="project-post-2-detail"
+              class="project-post-detail"
+              style="display: none"
+            >
+              <button onclick="showProjectList();" class="back-to-projects-btn">
+                <ion-icon name="arrow-back-outline"></ion-icon> Retour aux
+                projets
+              </button>
+
+              <div class="project-post-item detail-view">
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Gestion</p>
+                    <span class="dot"></span>
+                    <time datetime="2025-06-15">15 juin 2025</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">
+                    🧾 Système de gestion de la paie - Projet SIG | Hiver 2025
+                  </h3>
+
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/Project_Syst_Excel.jpg"
+                      alt="Système de paie Excel"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="project-detail-content">
+                    <p>
+                      <strong>Contexte académique :</strong> Collège d'Alma -
+                      Cours SIG (Système d'information de gestion)<br />
+                      <strong>Client fictif :</strong> Entreprise
+                      InfoSolution<br />
+                      <strong>Langages et outils :</strong> Microsoft Excel 365,
+                      VBA
+                    </p>
+
+                    <h4 class="h4">🎯 Objectif du projet</h4>
+                    <p>
+                      Développer un outil automatisé de gestion de la paie pour
+                      une PME de 10 salariés, permettant un traitement simple,
+                      efficace et sécurisé de la paie hebdomadaire, incluant le
+                      calcul des heures régulières, des heures supplémentaires,
+                      des primes, et des retenues à la source.
+                    </p>
+
+                    <h4 class="h4">🔧 Composantes du système</h4>
+                    <p>
+                      <strong>1. Page d'accueil interactive</strong><br />
+                      Une interface centrale élégante et fonctionnelle
+                      permettant la navigation entre les différentes feuilles
+                      (formulaires, paie, tableaux, rapports) grâce à des liens
+                      hypertextes dynamiques.
+                    </p>
+
+                    <p>
+                      <strong
+                        >2. Formulaire de saisie pour nouveau salarié</strong
+                      ><br />
+                      Formulaire structuré, sécurisé et validé (avec listes
+                      déroulantes et validations de données) pour saisir les
+                      informations personnelles et administratives d'un employé
+                      à intégrer dans la base de données principale.
+                    </p>
+
+                    <p>
+                      <strong>3. Feuilles de temps individuelles (x10)</strong
+                      ><br />
+                      Chaque salarié dispose d'une feuille de temps hebdomadaire
+                      intuitive permettant d'enregistrer :<br />
+                      Heure d'arrivée, départ, pause dîner<br />
+                      Calcul automatique : heures totales, régulières,
+                      supplémentaires<br />
+                      Prime de garde par quart ($50)<br />
+                      Les données sont automatiquement transférées à la table de
+                      paie.
+                    </p>
+
+                    <p>
+                      <strong>4. Table d'information sur la paie</strong><br />
+                      Une base consolidée regroupant les données de chaque
+                      employé pour la période traitée :<br />
+                      Rémunération brute, Heures régulières / supplémentaires,
+                      Primes, Déductions (impôts, RRQ, RQAP, AE)<br />
+                      Fonctions dynamiques assurant un calcul fiable et
+                      actualisé basé sur les barèmes fournis.
+                    </p>
+
+                    <p>
+                      <strong>5. Bordereau de paie automatisé</strong><br />
+                      Un bulletin clair et professionnel contenant toutes les
+                      informations financières de la période, généré à partir de
+                      deux entrées (période + N° employé).<br />
+                      Affiche automatiquement : Coordonnées de l'employé, Résumé
+                      des heures, gains et déductions, Montant net à déposer<br />
+                      Macro VBA intégrée pour imprimer ou exporter en PDF
+                    </p>
+
+                    <p>
+                      <strong>6. Tableau de bord de la rémunération</strong
+                      ><br />
+                      Tableau de bord visuel destiné aux gestionnaires avec :<br />
+                      Graphiques dynamiques sur les salaires totaux<br />
+                      Mise en forme conditionnelle pour repérer anomalies ou
+                      écarts<br />
+                      Indicateurs clés pour prise de décision rapide
+                    </p>
+
+                    <h4 class="h4">📈 Impact pédagogique et technique</h4>
+                    <p>
+                      ✅ Automatisation complète des calculs comptables<br />
+                      ✅ Respect des normes fiscales québécoises (taux et
+                      barèmes à jour)<br />
+                      ✅ Interfaces intuitives et professionnelles<br />
+                      ✅ Réduction significative des erreurs humaines<br />
+                      ✅ Projet réalisé dans un contexte réel de simulation
+                      d'entreprise
+                    </p>
+
+                    <h4 class="h4">🎬 Vidéo de présentation</h4>
+                    <p>
+                      Une vidéo explicative (4 à 8 min) a été produite pour
+                      guider les utilisateurs dans l'utilisation du système.
+                      Elle couvre :<br />
+                      La mise en contexte<br />
+                      Le fonctionnement de chaque feuille<br />
+                      La logique derrière les calculs<br />
+                      Les avantages pour l'entreprise
+                    </p>
+                    <!-- Notice importante -->
+                    <div class="download-notice">
+                      <h4>⚠️ Important avant téléchargement</h4>
+                      <p>
+                        Ce fichier contient des macros VBA. Consultez le
+                        README.txt inclus pour les instructions de déblocage.
+                      </p>
+                    </div>
+
+                    <!-- Bouton de Github -->
+                    <div class="project-actions">
+                      <a
+                        href="https://github.com/Kotiero/Systeme-Paie-Excel"
+                        class="project-btn"
+                      >
+                        <ion-icon name="logo-github"></ion-icon>
+                        <span>Voir sur GitHub</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </article>
+        <!--
+        - #CONTACT
+      -->
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d200355.80424892835!2d-71.84767210620319!3d48.715491614269844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cea76244369d7ff%3A0x5040cadae4d65b0!2sAlma%2C%20QC!5e0!3m2!1sfr!2sca!4v1752576162828!5m2!1sfr!2sca"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </figure>
+          </section>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Formulaire de contact</h3>
+
+            <form action="#" class="form" data-form>
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Nom complet"
+                  required
+                  data-form-input
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Adresse courriel"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Votre message"
+                required
+                data-form-input
+              ></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Envoyer le message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script>
+      // Fix pour les paragraphes modal sur mobile
+      document.addEventListener("DOMContentLoaded", function () {
+        // Quand un modal s'ouvre
+        const modalContainer = document.querySelector(".modal-container");
+        if (modalContainer) {
+          const observer = new MutationObserver(function (mutations) {
+            const modalText = document.querySelector("[data-modal-text]");
+            if (modalText && window.innerWidth < 580) {
+              modalText.style.cssText =
+                "display: block !important; overflow: visible !important; -webkit-line-clamp: unset !important; max-height: none !important;";
+              const paragraphs = modalText.querySelectorAll("p");
+              paragraphs.forEach((p) => {
+                p.style.cssText =
+                  "display: block !important; margin-bottom: 15px !important;";
+              });
+            }
+          });
+          observer.observe(modalContainer, {
+            attributes: true,
+            attributeFilter: ["class"],
+          });
+        }
+      });
+    </script>
+  </body>
+</html>
