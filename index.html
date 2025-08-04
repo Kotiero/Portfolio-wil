@@ -3374,7 +3374,12 @@
           <section class="contact-form">
             <h3 class="h3 form-title">Formulaire de contact</h3>
 
-            <form action="#" class="form" data-form>
+            <form
+              action="https://formspree.io/f/mvgqwoqn"
+              method="POST"
+              class="form"
+              data-form
+            >
               <div class="input-wrapper">
                 <input
                   type="text"
@@ -3408,6 +3413,12 @@
                 <span>Envoyer le message</span>
               </button>
             </form>
+            <div
+              id="confirmation-message"
+              style="display: none; color: green; margin-top: 10px"
+            >
+              Message bien envoyé
+            </div>
           </section>
         </article>
       </div>
@@ -3453,6 +3464,41 @@
           });
         }
       });
+    </script>
+    <script>
+      document
+        .querySelector(".contact-form form")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+          var form = this;
+          var data = new FormData(form);
+          fetch(form.action, {
+            method: "POST",
+            body: data,
+            headers: {
+              Accept: "application/json",
+            },
+          })
+            .then((response) => {
+              if (response.ok) {
+                const message = document.getElementById("confirmation-message");
+                message.style.display = "block";
+                form.reset();
+
+                // Masquer le message après 15 secondes
+                setTimeout(() => {
+                  message.style.display = "none";
+                }, 15000);
+              } else {
+                response.json().then((data) => {
+                  alert(data.error || "Une erreur est survenue.");
+                });
+              }
+            })
+            .catch((error) => {
+              alert("Erreur de connexion.");
+            });
+        });
     </script>
   </body>
 </html>

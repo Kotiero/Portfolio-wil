@@ -3709,3 +3709,17 @@ html body div[data-modal-text] p {
     display: block !important;
   }
 }
+
+#confirmation-message {
+  color: var(--orange-yellow-crayola);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-500);
+  margin-top: 20px;
+  text-align: center;
+  background-color: var(--border-gradient-onyx);
+  padding: 12px 20px;
+  border-radius: 12px;
+  border: 1px solid var(--jet);
+  box-shadow: var(--shadow-1);
+  display: none;
+}
